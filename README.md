@@ -1,5 +1,22 @@
 # ionic-tutorial2
 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg?style=flat)](https://github.com/nfriaa/ionic-tutorial2/issues) [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/nfriaa/ionic-tutorial2) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nfriaa/ionic-tutorial2/blob/master/LICENSE)
+
+![](https://img.shields.io/badge/node-8-red.svg)
+![](https://img.shields.io/badge/npm-5-blue.svg)
+![](https://img.shields.io/badge/ionic-3-ff69b4.svg)
+![](https://img.shields.io/badge/angular-5-orange.svg)
+![](https://img.shields.io/badge/typescript-latest-green.svg)
+![](https://img.shields.io/badge/editor-vscode-yellow.svg)
+
+## Pour tester cette application en local
+```sh
+git clone https://github.com/nfriaa/ionic-tutorial2.git
+cd ionic-tutorial2
+npm install
+ionic serve
+```
+
 ## Créer une nouvelle application Ionic
 ```sh
 ionic start ionic-tutorial2 sidemenu
@@ -7,7 +24,7 @@ ionic start ionic-tutorial2 sidemenu
 ionic serve
 ```
 
-## La géolocalisation
+## 1. La géolocalisation
 - ajouter une page pour tester la fonctionnalité de géolocalisation :
 ```sh
 ionic generate page Exemple1
@@ -28,7 +45,7 @@ npm install @ionic-native/geolocation --save
 // ajouter l'import :
 import { Geolocation } from "@ionic-native/geolocation";
 
-// ajouter dans le tableau 'providers' : 
+// ajouter dans le tableau 'providers' :
 providers: [
     ... ,
     Geolocation
