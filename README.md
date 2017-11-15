@@ -1,5 +1,7 @@
 # ionic-tutorial2
 
+Ionic tutorial2 : Ionic Native (exemples de fonctionnalités natives : géolocalisation, ...)
+
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg?style=flat)](https://github.com/nfriaa/ionic-tutorial2/issues) [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/nfriaa/ionic-tutorial2) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nfriaa/ionic-tutorial2/blob/master/LICENSE)
 
 ![](https://img.shields.io/badge/node-8-red.svg)
